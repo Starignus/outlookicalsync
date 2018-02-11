@@ -81,8 +81,14 @@ You can play with the API using java script in the next [link](https://script.go
 Construct a json file with the credentials from Outlook and Google `calendarid.json`:
 
 ```json
-{"calendarId": [{"id": "as7d7sd7f7dfgh8fg9f@import.calendar.google.com",
-"URL": "https://outlook.office365.com/owa/calendar/sdsfd8f88d99fdsf00s0d9s99sf@shopdirect.com/sdfd8f89d90s0dsdfsdff0s88dfs/calendar.ics"}]}
+{"calendarId": [
+  {"id": "as7d7sd7f7dfgh8fg9f@import.calendar.google.com",
+  "URL": "https://outlook.office365.com/owa/calendar/sdsfd8f88d99fdsf00s0d9s99sf@shopdirect.com/sdfd8f89d90s0dsdfsdff0s88dfs/calendar.ics"
+  }],
+"exchange": [
+    {"email": "xxxxxx@email.com",
+    "URL": "https://outlook.office365.com/EWS/Exchange.asmx"}
+  ]}
 ```
 
 
