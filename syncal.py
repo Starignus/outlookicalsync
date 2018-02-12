@@ -198,7 +198,7 @@ def list_events():
 
 def main():
     """
-    Function to run the update caleandar and list of events that will be taken into account
+    Function to run the update calendar and list of events that will be taken into account
     for the start and ending date.
     """
     # If the Calendar has been updated, we can comment it out. Otherwise we leave it.
