@@ -78,6 +78,8 @@ You can play with the API using java script in the next [link](https://script.go
 8. os.
 9. ics.
 
+## Credentials file
+
 Construct a json file with the credentials from Outlook `calendarid.json`, they can be used for both,
 `syncal.py`  and `CalendarGoogleAPI.py`:
 
