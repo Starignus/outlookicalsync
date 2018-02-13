@@ -1,8 +1,8 @@
-## Log of time spends over a week using info from Outlook calendar through Google API and iCalendar API. 
+## Log of time spends over a week using info from Outlook calendar through Google API or iCalendar API. 
 
 
 In this Git will be different script to make attempts to get events from Outlook Calendar (Exchange).  
-The idea is to track the time spent in each task over a week accordingly with defined categories where the time has buckete. E.g.
+The idea is to track the time spent in each task over a week accordingly with defined categories where the time has bucket. E.g.
 
 ```
 category_bucket = {'PSM': 'Project Specific Meetings',
@@ -27,7 +27,7 @@ This script gets the information from Google Calendar or iCalendar  (a .ics file
 from the last Monday to the following Monday. The categories map the events and get the hours spend in 
 the week in each of them. It exports the results in a CSV, and each week it will append the new info 
 for the following week. Since there is a problem with the sync between Outlook and Google, it will 
-be used the ```syncal.py```.
+be used the ```syncal.py``` which uses the iCalendar method (downloads a cal.ics in your local path).
 
 
 The are other two script that tries to use the exchange libraries, but credential authentication was not successful: 
